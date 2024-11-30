@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#2196F3">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="Zakat Image"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/abc" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FF9800"
+        android:text="CALCULATE ZAKAT"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FF9800"
+        android:text="ABOUT PAGE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
